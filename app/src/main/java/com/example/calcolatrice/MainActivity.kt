@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity()
         resultsTV = findViewById(R.id.resultsTV)
 
 
-        findViewById<Button>(R.id.button0).setOnClickListener { numberAction(it) }
+        findViewById<Button1>(R.id.button0).setOnClickListener { numberAction(it) }
         findViewById<Button>(R.id.button1).setOnClickListener { numberAction(it) }
         findViewById<Button>(R.id.button2).setOnClickListener { numberAction(it) }
         findViewById<Button>(R.id.button3).setOnClickListener { numberAction(it) }
