@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity()
         workingsTV = findViewById(R.id.workingsTV)
         resultsTV = findViewById(R.id.resultsTV)
 
-        // Inizializza i listener per i pulsanti
+
         findViewById<Button>(R.id.button0).setOnClickListener { numberAction(it) }
         findViewById<Button>(R.id.button1).setOnClickListener { numberAction(it) }
         findViewById<Button>(R.id.button2).setOnClickListener { numberAction(it) }
