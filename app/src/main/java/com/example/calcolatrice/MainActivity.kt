@@ -71,9 +71,9 @@ class MainActivity : ComponentActivity()
 
     fun backSpaceAction(view: View)
     {
-        val lunghezza = workingsTV.length()
-        if(lunghezza > 0)
-            workingsTV.text = workingsTV.text.subSequence(0, lunghezza - 1)
+        val lenght = workingsTV.length()
+        if(lenght > 0)
+            workingsTV.text = workingsTV.text.subSequence(0, lenght - 1)
     }
 
     fun equalsAction(view: View)
